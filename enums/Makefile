@@ -1,5 +1,5 @@
-boolean_types:
-	g++ -o boolean_types boolean_types.cpp 
+enums:
+	g++ -o enums enums.cpp 
 
 clean:
-	rm *.exe boolean_types
+	rm *.exe enums
