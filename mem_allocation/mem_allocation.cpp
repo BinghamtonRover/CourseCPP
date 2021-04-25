@@ -99,4 +99,10 @@ int main(){
     std::cout << std::endl;
 
     free(arr2);
+
+    /////////////////////////////////////////////////////////////////////////////////
+    // using new and delete
+    Pair* p1 = new Pair(5,6);
+    p1->print_pair();
+    delete p1;
 }
